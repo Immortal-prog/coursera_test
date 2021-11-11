@@ -1,7 +1,91 @@
-h1{
-	color: red;
-	background-color: green;
+*{
+	box-sizing: border-box;
+	
 }
-ul{
-	background-color: blue;
+h1{
+	text-align: center;
+	
+}
+p{
+	box-sizing: border-box;
+	margin-top: 30px;120
+
+}
+#p1{
+	font-weight: bold;
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: #D59898;
+	position: relative;
+	right: 0;
+	top:0;
+	width: 140px;
+	padding: 5px;
+
+}
+#p2{
+	font-weight: bold;
+	float: right;
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: #C14543;
+	position: relative;
+	width: 140px;
+	padding: 5px;
+}
+
+#p3{
+	font-weight: bold;
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background-color: #E5D198;
+	position: relative;
+	width: 140px;
+	padding: 5px;
+}
+
+.content {
+	box-sizing: border-box;
+  margin: 10px 10px;
+  padding: 0px;
+  border: 2px solid black;
+  background-color: grey;
+}
+
+
+.row{
+	width: 100%;
+}
+@media(min-width: 992px){
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+
+	}
+	.col-md-1{
+		width: 100%;
+		float: left;
+
+	}
+}
+
+@media(max-width:767px){
+	.col-sm-1{
+		width: 100%;
+		float: left;
+	}
 }
